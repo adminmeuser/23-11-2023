@@ -1,0 +1,74 @@
+// .bx-main {
+//    width: 500px; height: auto;
+//     text-align: center;
+//     background-color: aliceblue;
+//     margin: 0 auto;
+//     display: table;
+   
+// }
+// button {
+//   margin-right: 10px;
+//   cursor: pointer;
+// }
+// button:hover {
+//     background-color:tan;
+// }
+
+// .table-container {
+//   margin-top: 20px;
+// }
+
+
+// th.selected-column {
+//   background-color: yellow;
+//   color: black;
+// }
+
+
+// th.highlight-column {
+//   border: 2px solid red; 
+//   background-color: lightgray;
+// }
+// table {
+//     padding: 10px;
+// }
+
+
+body {
+  text-align: center;
+  background-color: aliceblue;
+  font-weight: bold;
+  
+
+}
+
+
+nav{
+  text-decoration: none;
+ display: flex;
+ padding: 20px;
+ justify-content: space-around;
+ background-color: rgb(185, 216, 243);
+ }
+
+ 
+ a{
+  text-decoration: none;
+ }
+ a:hover{
+  color: royalblue;
+ }
+.bx-footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 250px;
+  background-color: rgb(185, 216, 243);
+}
+
+.hover-effect {
+  cursor: pointer;
+}
+
+.hover-effect:hover {
+  background-color:darksalmon; 
+}

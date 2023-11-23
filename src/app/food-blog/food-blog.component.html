@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>MY PROJRCT</title>
+
+  <link rel="stylesheet" href="./food-blog.component.scss">
+  </head>
+<body>
+    <header>
+        <nav >
+           <a  href="#" appHover>INGREDIENT</a>  
+           <a href="#">RECIPE</a>  
+           <a href="#">VIDEO</a>  
+           <a href="#">LOCATION</a>  
+          
+
+        </nav>
+    </header>
+    <div *ngFor="let post of blogPosts">
+        <h2 appStyle [highlightColor]="'lightblue'">{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+      </div>
+</body>
+</html>

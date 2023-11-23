@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./app.component.scss">
+  </head>
+  <body>
+    <!-- <div class="bx-main">
+    <button (click)="toggleTable()">Table</button><br><br>
+    <div *ngIf="showTable" class="table-container">
+        <div>
+            <button (click)="selectColumn ('id')">ID </button>
+            <button (click)="selectColumn ('name')">Name</button>
+            <button (click)="selectColumn ('age')">Age</button><br><br>
+          
+            <button (click)="toggleColumnHighlight(0)"> ID </button>
+            <button (click)="toggleColumnHighlight(1)"> Name </button>
+            <button (click)="toggleColumnHighlight(2)"> Age </button>
+         
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th [ngClass]="{'selected-column': selectedColumn === 'id', 'highlight-column': highlightColumns[0]}">ID</th>
+                    <th [ngClass]="{'selected-column': selectedColumn === 'name', 'highlight-column': highlightColumns[1]}">Name</th>
+                    <th [ngClass]="{'selected-column': selectedColumn === 'age', 'highlight-column': highlightColumns[2]}">Age</th>
+         
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of tableData">
+                    <td>{{ item.id }}</td>
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.age }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</div> -->
+
+
+<div>
+    <header>
+      <nav>
+<a routerLink=" ">Home</a>
+<a routerLink="/food-blog">Food Blog</a>
+</nav></header></div>
+<router-outlet></router-outlet>
+
+<div class="bx-footer">
+    <button (click)="viewAuthorDetails()" appHover >View Author Details</button>
+
+    <p>Privacy Policy  |  Teams of Use  |  Cookie Policy </p>
+    <p>Copyright &copy; 2022 - 2023 </p>
+    </div>
+  </body></html>
